@@ -1,0 +1,43 @@
+<script src="Ex6.js"></script>
+<html>
+<head>
+<title>Employee</title>
+<h1><b><font face="Arial">Employee Details</font></b></h1>
+<table>
+<tr>
+<td><b><i>Employee ID:</b></i></td><br>
+<td><input type="text" id="txt1" name="n1" ></td>
+</tr>
+<tr>
+<td><b><i>Employee Name:</b></i></td><br>
+<td><input type="text" id="txt2" name="n2" pattern="[a-z A-Z]+"></td>
+</tr>
+<tr>
+<td><b><i>DOB:</i></b></td>
+<td><input type='date' name='bd' id="txt3"></td>
+</tr>
+<tr>
+<td><b><i>Gender:</b></i></td><br>
+<td><input type="radio" name="gen" value="Male" id="gender1">Male <input type="radio" name="gen" value="Female" id="gender2">Female</td>
+</tr>
+<tr>
+<td><b><i>Grade:</i></b></td>
+<td><select id='txt4'>
+<option value="1">Grade I</option>
+<option value="2">Grade II</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><b><i>Basic Salary:</i></b></td>
+<td><input type='number' name='bd' id="txt5"></td>
+</tr>
+<tr>
+<td><input type="button" id="txt11" name="n10" value="Get" onclick="call()" ></td>
+</tr>
+</table>
+<div id='one'>
+</div>
+<div id='two'>
+</div>
+</html>
